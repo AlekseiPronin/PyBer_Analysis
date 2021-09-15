@@ -8,27 +8,19 @@ The main purpose of this analysis was to perform an exploratory analysis on data
 ## Results
 
 
-For better understanding the data, the following visualisations were made:
+After merging data sets and performing calculations, the total summary data frame was created
 
-1) Total Ride Count by City Type
+![summary](https://github.com/AlekseiPronin/PyBer_Analysis/blob/main/analysis/result.png)
 
-![Fig2](https://github.com/AlekseiPronin/PyBer_Analysis/blob/main/analysis/Fig2.png)
+1) Urban cities make the most of rides, drivers and total fares 
+2) Opposite to urban cities, rural ones make the least total fares, drivers and have the least rides
+3) Suburban cities are in the middle having 2nd best number of rides, drivers and fares
+4) However rural cities have the least of drivers, rides and total fares, they have the largest average fare per ride and per driver
+5) Urban cities, having the most of rides, drivers and total fees, also have the least fare per ride and driver
 
-The average number of rides in rural cities is 4 times less then in urban cities and almost 3.5 times less then in suburban cities. Urban cities have the most rider count.
 
-2) Average Fares by City Type
 
-![Fig3](https://github.com/AlekseiPronin/PyBer_Analysis/blob/main/analysis/Fig3.png)
-
-The average fare for rides in the rural cities is about $11 and $5 more per ride than the urban and suburban cities, respectively.
-
-3) Driver Count by City Type
-
-![Fig4](https://github.com/AlekseiPronin/PyBer_Analysis/blob/main/analysis/Fig4.png)
-
-The average number of drivers in rural cities is nine to four times less per city than in urban and suburban cities, respectively.
-
-4) As a final task, we were asked to make a multiple-line graph that shows the total weekly fares for each city type for the 1st quarter of the year.
+As a final task, we were asked to make a multiple-line graph that shows the total weekly fares for each city type for the 1st quarter of the year.
 
 ![PyBer_Fare_Summary](https://github.com/AlekseiPronin/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
 
